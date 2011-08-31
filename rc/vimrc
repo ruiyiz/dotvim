@@ -138,13 +138,10 @@ command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
 " Plugin specific settings
 " ~~~~
 
-" BufExplorer
-"map     <silent> <F12> :BufExplorer<CR>
-
-" NERDTree
-"nmap    <silent> <C-E><C-E> :NERDTreeToggle<CR>
-"imap    <silent> <C-E><C-E> <C-O>:NERDTreeToggle<CR>
-" let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', 'harvest.sig']
+" Command-T
+noremap <leader>o   <Esc>:CommandT<CR>
+noremap <leader>tf  <Esc>:CommandTFlush<CR>
+noremap <leader>b   <Esc>:CommandTBuffer<CR>
 
 
 " ~~~~
