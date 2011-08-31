@@ -3,7 +3,7 @@
 " GUI specific settings
 if has("gui_running")
     colorscheme vividchalk          " Set default color schema
-    set guifont=Menlo:h14           " Set font family and font size
+    set guifont=Menlo:h15           " Set font family and font size
     set antialias                   " MacVim: smooth fonts
     set encoding=utf-8              " Use UTF-8 everywhere.
 
@@ -28,7 +28,7 @@ if has("gui_running")
 endif
 
 " Alt-Space is System menu
-if has("gui")
+if has("gui") && (has("win32") || has("win64"))
     noremap  <silent> <M-Space> :simalt ~<CR>
     inoremap <silent> <M-Space> <C-O>:simalt ~<CR>
     cnoremap <silent> <M-Space> <C-C>:simalt ~<CR>
