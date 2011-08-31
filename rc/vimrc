@@ -148,13 +148,6 @@ noremap <leader>b   <Esc>:CommandTBuffer<CR>
 " Custom functions
 " ~~~~
 
-" Set Working Directory to The File Being Edited
-function! ChangeCurrentDir()
-    let _dir = expand("%:p:h")
-    exec "cd " . _dir
-    unlet _dir
-endfunction
-
 " Mapping to Make Movements Operate on 1 Screen Line in Wrap Mode
 function! ScreenMovement(movement)
     if &wrap
@@ -164,7 +157,6 @@ function! ScreenMovement(movement)
     endif
 endfunction
 
-autocmd BufEnter * call ChangeCurrentDir()
 onoremap <silent> <expr> j ScreenMovement("j")
 onoremap <silent> <expr> k ScreenMovement("k")
 onoremap <silent> <expr> 0 ScreenMovement("0")
