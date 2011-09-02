@@ -141,7 +141,7 @@ command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
 " Command-T
 noremap <leader>o   <Esc>:CommandT<CR>
 noremap <leader>tf  <Esc>:CommandTFlush<CR>
-noremap <leader>b   <Esc>:CommandTBuffer<CR>
+noremap <leader>i   <Esc>:CommandTBuffer<CR>
 
 
 " ~~~~
