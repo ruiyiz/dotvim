@@ -2,7 +2,7 @@
 
 " GUI specific settings
 if has("gui_running")
-    colorscheme vividchalk          " Set default color schema
+    colorscheme solarized           " Set default color schema
     set guifont=Menlo:h14           " Set font family and font size
     set antialias                   " MacVim: smooth fonts
     set encoding=utf-8              " Use UTF-8 everywhere.
