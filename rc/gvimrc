@@ -3,8 +3,16 @@
 " GUI specific settings
 if has("gui_running")
     colorscheme solarized           " Set default color schema
+
+    " Solarized Colorscheme Config
+    let g:solarized_contrast="high"
+    let g:solarized_visibility="high"
+    set background=dark
+
+    " Font configuration
     set guifont=Menlo:h14           " Set font family and font size
     set antialias                   " MacVim: smooth fonts
+
     set encoding=utf-8              " Use UTF-8 everywhere.
 
     " WINDOWS only settings
