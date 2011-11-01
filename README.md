@@ -9,3 +9,4 @@ Create symbolic links
 
 #### Credits
 
+vim-markdown: http://plasticboy.com/markdown-vim-mode/
