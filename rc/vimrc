@@ -40,6 +40,7 @@ set autoindent                      "
 set shiftwidth=4                    " Set shift width
 
 " Misc settings
+set ffs=unix,dos                    " Force Vim to always use unix line ending on all platforms
 set nocuc                           " 
 set noea                            " allow unequal size windows when splitting window
 set backspace=indent,eol,start      " allow backspacing over everything in insert mode
