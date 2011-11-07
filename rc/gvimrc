@@ -19,7 +19,7 @@ if has("gui_running")
         " Disable tearoff menu entries
         let &guioptions = substitute(&guioptions, "t", "", "g")
         " Maximize window on startup 
-        au GUIEnter * simalt ~x
+        "au GUIEnter * simalt ~x
 
         "winpos 0 0                     " Set starting position of GUI window
 
