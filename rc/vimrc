@@ -95,6 +95,9 @@ endif
 " Key Mappings
 " ~~~~
 
+" Change <leader> to ',' (comma)
+let mapleader = ","
+
 map     Q gq
 map     <silent> <F9> :tabnew<CR>
 map     <SPACE> <C-F>
