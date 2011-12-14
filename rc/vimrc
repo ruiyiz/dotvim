@@ -108,18 +108,18 @@ exe 'inoremap <script> <F3>' paste#paste_cmd['i']
 exe 'vnoremap <script> <F3>' paste#paste_cmd['v']
 
 " CTRL-Tab is Next window
-noremap  <silent> <C-Tab> <C-W>w
-inoremap <silent> <C-Tab> <C-O><C-W>w
-cnoremap <silent> <C-Tab> <C-C><C-W>w
-onoremap <silent> <C-Tab> <C-C><C-W>w
-nnoremap <silent> <C-S-Tab> <C-W>W
-inoremap <silent> <C-S-Tab> <C-O><C-W>W
+"noremap  <silent> <C-Tab> <C-W>w
+"inoremap <silent> <C-Tab> <C-O><C-W>w
+"cnoremap <silent> <C-Tab> <C-C><C-W>w
+"onoremap <silent> <C-Tab> <C-C><C-W>w
+"nnoremap <silent> <C-S-Tab> <C-W>W
+"inoremap <silent> <C-S-Tab> <C-O><C-W>W
 
 " CTRL-F4 is Close window
-noremap  <silent> <C-F4> <C-W>c
-inoremap <silent> <C-F4> <C-O><C-W>c
-cnoremap <silent> <C-F4> <C-C><C-W>c
-onoremap <silent> <C-F4> <C-C><C-W>c
+"noremap  <silent> <C-F4> <C-W>c
+"inoremap <silent> <C-F4> <C-O><C-W>c
+"cnoremap <silent> <C-F4> <C-C><C-W>c
+"onoremap <silent> <C-F4> <C-C><C-W>c
 
 "map <C-T> :tabnew<CR>
 "
@@ -138,11 +138,6 @@ command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
 " ~~~~
 " Plugin specific settings
 " ~~~~
-
-" Command-T
-noremap <leader>o   <Esc>:CommandT<CR>
-noremap <leader>tf  <Esc>:CommandTFlush<CR>
-noremap <leader>i   <Esc>:CommandTBuffer<CR>
 
 
 " ~~~~
