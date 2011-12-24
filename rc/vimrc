@@ -55,6 +55,7 @@ set number ruler                    " Display line number
 set showmatch                       " Show matching braces
 set vb t_vb=                        " Flashes the screen when a command doesn't work
 set clipboard=unnamed               " Set unnamed register to the OS clipboard
+set hidden                          " Allow modified buffer to be put into background
 
 " Syntax highlighting
 syntax on                           " Enable syntax highlighting
