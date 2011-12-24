@@ -57,6 +57,9 @@ set vb t_vb=                        " Flashes the screen when a command doesn't 
 set clipboard=unnamed               " Set unnamed register to the OS clipboard
 set hidden                          " Allow modified buffer to be put into background
 
+" Color scheme in terminal mode
+colorscheme solarized
+
 " Syntax highlighting
 syntax on                           " Enable syntax highlighting
 syntax sync fromstart
