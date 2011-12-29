@@ -58,6 +58,7 @@ set clipboard=unnamed               " Set unnamed register to the OS clipboard
 set hidden                          " Allow modified buffer to be put into background
 
 " Color scheme in terminal mode
+set background=dark
 colorscheme solarized
 
 " Syntax highlighting
