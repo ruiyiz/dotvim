@@ -1,13 +1,9 @@
-### README
-Create symbolic links
-
-* ~/.vimrc -> dotvim/rc/vimrc
-* ~/.gvimrc -> dotvim/rc/gvimrc
-* ~/.vim -> dotvim/
+Ruiyi Zhang's Vim configuration files
+=====================================
 
 #### Usage
+Run `./configure.sh`
 
-
-#### Credits
+#### Included Plug-ins
 
 vim-markdown: http://plasticboy.com/markdown-vim-mode/
