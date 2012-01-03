@@ -151,6 +151,9 @@ command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
 " Plugin specific settings
 " ~~~~
 
+" ctrlp
+let g:ctrlp_dotfiles=0
+
 
 " ~~~~
 " Custom functions
