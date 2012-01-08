@@ -116,8 +116,8 @@ exe 'inoremap <script> <F3>' paste#paste_cmd['i']
 exe 'vnoremap <script> <F3>' paste#paste_cmd['v']
 
 " Replace :q command with buffer closing behavior
-exe 'cnoreabbrev wq w<bar>bd'
-exe 'cnoreabbrev q bd'
+cnoreabbrev wq w<bar>bd
+cnoreabbrev q bd
 
 " CTRL-Tab is Next window
 "noremap  <silent> <C-Tab> <C-W>w
@@ -153,6 +153,8 @@ command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
 
 " ctrlp
 let g:ctrlp_dotfiles=0
+
+nmap    <leader>p   :CtrlPBuffer<cr>
 
 
 " ~~~~
