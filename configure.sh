@@ -1,4 +1,4 @@
-dotvim_path=$HOME/Developer/Projects/dotvim;
+dotvim_path=$HOME/src/dotvim;
 
 ln -si $dotvim_path/vimrc ~/.vimrc
 ln -si $dotvim_path/gvimrc ~/.gvimrc

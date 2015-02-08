@@ -15,9 +15,7 @@ set nocompatible
 " Only turn it on for debugging purpose
 "set verbose
 
-" Start up pathogen - the plugin manager.
-silent! call pathogen#runtime_append_all_bundles()
-silent! call pathogen#helptags()
+" Vundle
 
 " Better Search
 set incsearch                       " do incremental searching
