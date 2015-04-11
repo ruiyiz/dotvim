@@ -16,13 +16,17 @@ set nocompatible
 "set verbose
 
 " Vundle
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
-Bundle 'klen/python-mode'
+Bundle 'gmarik/Vundle.vim'
+"Bundle 'klen/python-mode'
+
+" All plugins must be added before the following line
+call vundle#end()
+filetype plugin indent on
 
 " Better Search
 set incsearch                       " do incremental searching
@@ -121,6 +125,7 @@ exe 'inoremap <script> <F3>' paste#paste_cmd['i']
 exe 'vnoremap <script> <F3>' paste#paste_cmd['v']
 
 " Replace :q command with buffer closing behavior
+" CHANGELOG: moved to gvimrc
 "cnoreabbrev wq w<bar>bd
 "cnoreabbrev q bd
 
