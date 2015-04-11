@@ -51,3 +51,8 @@ if has("gui") && (has("win32") || has("win64"))
     cnoremap <silent> <M-Space> <C-C>:simalt ~<CR>
 endif
 
+
+" Replace :q command with buffer closing behavior
+cnoreabbrev wq w<bar>bd
+cnoreabbrev q bd
+

@@ -121,8 +121,8 @@ exe 'inoremap <script> <F3>' paste#paste_cmd['i']
 exe 'vnoremap <script> <F3>' paste#paste_cmd['v']
 
 " Replace :q command with buffer closing behavior
-cnoreabbrev wq w<bar>bd
-cnoreabbrev q bd
+"cnoreabbrev wq w<bar>bd
+"cnoreabbrev q bd
 
 " CTRL-Tab is Next window
 "noremap  <silent> <C-Tab> <C-W>w
