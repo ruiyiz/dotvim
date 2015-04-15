@@ -173,6 +173,9 @@ map     <silent> <F9> :tabnew<CR>
 map     <SPACE> <C-F>
 map     <BS> <C-B>
 
+" Remap <esc> to <leader>jj
+inoremap <leader>zz <ESC>
+
 " Pasting blockwise and linewise selections is not possible in Insert and
 " Visual mode without the +virtualedit feature.  They are pasted as if they
 " were characterwise instead.
@@ -212,11 +215,6 @@ exe 'vnoremap <script> <F3>' paste#paste_cmd['v']
 " file it was loaded from, thus the changes you made.
 command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
 	 	\ | wincmd p | diffthis
-
-" ~~~~
-" Plugin specific settings
-" ~~~~
-
 
 
 " ~~~~
